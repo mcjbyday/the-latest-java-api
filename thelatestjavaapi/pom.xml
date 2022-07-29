@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.thelatest</groupId>
-	<artifactId>the-latest-java-api</artifactId>
+	<artifactId>thelatestjavaapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>the-latest-java-api</name>
+	<name>thelatestjavaapi</name>
 	<description>The Latest Java API Project</description>
 	<properties>
 		<java.version>1.8</java.version>

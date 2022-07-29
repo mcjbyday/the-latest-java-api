@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/thelatest.iml" filepath="$PROJECT_DIR$/.idea/thelatest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thelatestjavaapi/thelatestjavaapi.iml" filepath="$PROJECT_DIR$/thelatestjavaapi/thelatestjavaapi.iml" />
     </modules>
   </component>
 </project>
