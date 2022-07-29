@@ -1,4 +1,4 @@
-package thelatestjavaapi.src.main.java.com.thelatest;
+package com.thelatest;
 
 public class HelloWorld {
     //     class is blueprint that can be used to create new objects
