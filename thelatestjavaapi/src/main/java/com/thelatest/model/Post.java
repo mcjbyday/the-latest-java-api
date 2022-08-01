@@ -14,8 +14,23 @@ import java.util.Objects;
 @Table(name = "post")
 public class Post implements Serializable {
 
-}
-public class Post {
+    public Post() {
+
+    }
+
+    public Post(Integer id, String title, String postUrl, int voteCount, Integer userId) {
+
+        this.id = id;
+
+        this.title = title;
+
+        this.postUrl = postUrl;
+
+        this.voteCount = voteCount;
+
+        this.userId = userId;
+
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
