@@ -57,7 +57,7 @@ public class Post implements Serializable {
     private Date updatedAt = new Date();
 
     // Need to use FetchType.LAZY to resolve multiple bags exception
-    @OneToMany(mappedBy = "userId", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "postId", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Comment> comments;
 
     public Integer getId() {
